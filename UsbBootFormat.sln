@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsbBootFormat", "UsbBootFormat\UsbBootFormat.csproj", "{56A0905E-EE07-49F6-A066-116F96EAF4C1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UsbBootFormatExt", "ContextMenuHandler\ContextMenuHandler.vcxproj", "{4AA6D343-BD93-48B4-B5C4-5E8213563CD7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppHelpers", "..\CppHelpers\CppHelpers\CppHelpers.vcxproj", "{AA5CD503-7447-4174-A71D-0FAD99E1E7D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpHelpers", "..\CsharpHelpers\CsharpHelpers\CsharpHelpers.csproj", "{A40CC92E-5E23-4A22-A58A-F575F1C4CE60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56A0905E-EE07-49F6-A066-116F96EAF4C1}.Debug|x64.ActiveCfg = Debug|x64
+		{56A0905E-EE07-49F6-A066-116F96EAF4C1}.Debug|x64.Build.0 = Debug|x64
+		{56A0905E-EE07-49F6-A066-116F96EAF4C1}.Release|x64.ActiveCfg = Release|x64
+		{56A0905E-EE07-49F6-A066-116F96EAF4C1}.Release|x64.Build.0 = Release|x64
+		{4AA6D343-BD93-48B4-B5C4-5E8213563CD7}.Debug|x64.ActiveCfg = Debug|x64
+		{4AA6D343-BD93-48B4-B5C4-5E8213563CD7}.Debug|x64.Build.0 = Debug|x64
+		{4AA6D343-BD93-48B4-B5C4-5E8213563CD7}.Release|x64.ActiveCfg = Release|x64
+		{4AA6D343-BD93-48B4-B5C4-5E8213563CD7}.Release|x64.Build.0 = Release|x64
+		{AA5CD503-7447-4174-A71D-0FAD99E1E7D0}.Debug|x64.ActiveCfg = Debug|x64
+		{AA5CD503-7447-4174-A71D-0FAD99E1E7D0}.Debug|x64.Build.0 = Debug|x64
+		{AA5CD503-7447-4174-A71D-0FAD99E1E7D0}.Release|x64.ActiveCfg = Release|x64
+		{AA5CD503-7447-4174-A71D-0FAD99E1E7D0}.Release|x64.Build.0 = Release|x64
+		{A40CC92E-5E23-4A22-A58A-F575F1C4CE60}.Debug|x64.ActiveCfg = Debug|x64
+		{A40CC92E-5E23-4A22-A58A-F575F1C4CE60}.Debug|x64.Build.0 = Debug|x64
+		{A40CC92E-5E23-4A22-A58A-F575F1C4CE60}.Release|x64.ActiveCfg = Release|x64
+		{A40CC92E-5E23-4A22-A58A-F575F1C4CE60}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BECACC04-9003-46C2-87F8-14BCBF499470}
+	EndGlobalSection
+EndGlobal

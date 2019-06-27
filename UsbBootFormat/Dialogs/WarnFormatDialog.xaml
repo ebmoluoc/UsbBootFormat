@@ -1,0 +1,28 @@
+﻿<Window x:Class="UsbBootFormat.Dialogs.WarnFormatDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        SizeToContent="WidthAndHeight" ResizeMode="NoResize"
+        WindowStartupLocation="CenterOwner" FontFamily="Verdana">
+    <Border Padding="14">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="32"/>
+                <RowDefinition Height="14"/>
+                <RowDefinition Height="24"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="32"/>
+                <ColumnDefinition Width="10"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Image x:Name="imgWarning" Grid.Row="0" Grid.Column="0"/>
+            <TextBlock x:Name="tbkMessage" Grid.Row="0" Grid.Column="2" VerticalAlignment="Center">
+                WARNING: Formatting will erase all data on this disk.
+            </TextBlock>
+            <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Right">
+                <Button x:Name="btnOk" Content="OK" Width="74" Click="BtnOk_Click"/>
+                <Button x:Name="btnCancel" Content="Cancel" Width="74" Margin="10 0 0 0" IsCancel="True" IsDefault="True" Click="BtnCancel_Click" />
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>
