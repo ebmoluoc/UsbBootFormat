@@ -1,7 +1,6 @@
 ﻿using CsharpHelpers.DeviceServices;
 using CsharpHelpers.Helpers;
 using CsharpHelpers.Interops;
-using CsharpHelpers.NotifyServices;
 using CsharpHelpers.WindowServices;
 using System;
 using System.Collections.Generic;
