@@ -25,7 +25,7 @@ namespace UsbBootFormat.Behaviors
             }
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs ee)
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             _textBox.ScrollToEnd();
         }
